@@ -27,3 +27,5 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 # Use Turbolinks
 gem 'turbolinks'
+# Use Bootstrap
+gem 'bootstrap-sass'
