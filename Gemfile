@@ -29,3 +29,5 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Use Bootstrap
 gem 'bootstrap-sass'
+# Use Pry
+gem 'pry-rails'
