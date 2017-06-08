@@ -47,9 +47,18 @@ end
   )
 end
 
-user = User.first
-user.update_attributes!(
-  email: 'gt5955a@gmail.com',
+# Create an Admin User
+admin = User.create!(
+  name:     'Admin User',
+  email:    'admin@example.com',
+  password: 'helloworld',
+  role:     'admin'
+)
+
+# Create a Member
+member = User.create!(
+  name:     'Member User',
+  email:    'member@example.com',
   password: 'helloworld'
 )
 
